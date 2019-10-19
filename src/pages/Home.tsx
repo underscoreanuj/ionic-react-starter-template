@@ -1,6 +1,5 @@
 import { 
   IonContent,
-  IonHeader, 
   IonPage, 
   IonTitle, 
   IonToolbar, 
@@ -21,20 +20,11 @@ import { RouteComponentProps } from 'react-router';
 const Home: React.FC<RouteComponentProps> = (props) => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Ionic Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
+      <IonToolbar>
+        <IonTitle> </IonTitle>
+      </IonToolbar>
       <IonContent className="ion-padding">
-        The world is your oyster.
-        <p>
-          If you get lost, the{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/">
-            docs
-          </a>{' '}
-          will be your guide.
-        </p>
+        React - Ionic
 
         <IonList>
           <IonItem>
