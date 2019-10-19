@@ -1,5 +1,7 @@
 {
   "name": "myNativeApp",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }
