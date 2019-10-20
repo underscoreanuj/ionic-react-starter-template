@@ -25,7 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "ionic:build": "npm run build && ionic capacitor copy"
+    "ionic:build": "npm run build && ionic capacitor copy android"
   },
   "eslintConfig": {
     "extends": "react-app"
